@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+}
+.navigation-bar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    padding: 25px;
+    z-index: 99999;
+}
+.navigation-bar-child {
+    position: absolute;
+    margin-left: 33%;
+}
+.other-pages-links {
+    color: mediumblue;
+    font-family: "IRAN Rounded";
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0px 3px 3px 0px mediumblue;
+    padding: 25px;
+}
+.other-pages-links:hover {
+    color: blue;
+}
+.login-button {
+    background-color: mediumblue;
+    color: white;
+    font-family: "IRAN Rounded";
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    text-shadow: 0px 3px 3px 0px white;
+    box-shadow: 0px 3px 3px 0px mediumblue;
+    padding: 5px 35px;
+    margin: 50px;
+}
+.login-button:hover {
+    background-color: blue;
+    box-shadow: 0px 3px 3px 0px blue;
+}
+.navigation-icon {
+    float: right;
+    margin-right: 110px;
+}
+.first-part {
+    display: block;
+    height: 600px;
+    margin-top: 15%;
+}
+.first-part-image {
+    float: left;
+    padding-left: 6%;
+}
+.first-part-heading {
+    color: black;
+    font-family: "IRAN Rounded";
+    font-size: 45px;
+    text-align: right;
+    float: right;
+    padding-right: 6%;
+    margin: 0;
+    max-width: 45%;
+}
+.first-part-paragraph {
+    color: #4f4e4e;
+    font-family: "IRAN Rounded";
+    font-size: 18px;
+    text-align: right;
+    float: right;
+    padding-right: 6%;
+    max-width: 45%;
+}
+.download-buttons {
+    float: right;
+    padding-right: 6%;
+}
+.iphone-download-button {
+    background-color: mediumblue;
+    color: white;
+    font-family: "IRAN Rounded";
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid mediumblue;
+    border-radius: 10px;
+    text-shadow: 0px 3px 3px 0px white;
+    box-shadow: 0px 3px 3px 0px mediumblue;
+    float: right;
+    padding: 5px 35px;
+    margin-left: 20px;
+}
+.iphone-download-button:hover {
+    background-color: blue;
+    box-shadow: 0px 3px 3px 0px blue;
+}
+.iphone-download-button:active {
+    background-color: white;
+    color: mediumblue;
+    font-family: "IRAN Rounded";
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid mediumblue;
+    border-radius: 10px;
+    text-shadow: 0px 3px 3px 0px mediumblue;
+    box-shadow: 0px 3px 3px 0px white;
+    float: right;
+    padding: 5px 35px;
+}
+.android-download-button {
+    background-color: white;
+    color: mediumblue;
+    font-family: "IRAN Rounded";
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid mediumblue;
+    border-radius: 10px;
+    text-shadow: 0px 3px 3px 0px mediumblue;
+    box-shadow: 0px 3px 3px 0px white;
+    float: right;
+    padding: 5px 35px;
+}
+.android-download-button:hover {
+    color: blue;
+    text-shadow: 0px 3px 3px 0px blue;
+    border: 1px solid blue;
+}
+.android-download-button:active {
+    background-color: mediumblue;
+    color: white;
+    font-family: "IRAN Rounded";
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid mediumblue;
+    border-radius: 10px;
+    text-shadow: 0px 3px 3px 0px white;
+    box-shadow: 0px 3px 3px 0px mediumblue;
+    float: right;
+    padding: 5px 35px;
+    margin-left: 20px;
+}
+.info {
+    background-color: #f8f9fc;
+    clip-path: ellipse(333% 100% at 50% 100%);
+    height: 2900px;
+    margin-top: 0;
+}
+.info-heading {
+    color: black;
+    font-family: "IRAN Rounded";
+    font-size: 30px;
+    text-align: center;
+}
+.info-paragraph {
+    color: #4f4e4e;
+    font-family: "IRAN Rounded";
+    font-size: 15px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 550px;
+}
+.info-first-part-image {
+    display: inline;
+    float: left;
+    margin-left: 5%;
+}
+.info-first-part-text {
+    float: right;
+    margin-right: 5%;
+}
+.info-first-part-icon {
+    float: right;
+    margin-top: 9%;
+    margin-left: 20px;
+}
+.info-first-part-text1 {
+    float: right;
+}
+.info-first-part-heading1 {
+    color: black;
+    font-family: "IRAN Rounded";
+    font-size: 20px;
+    text-align: right;
+    direction: rtl;
+    max-width: 300px;
+}
+.info-first-part-paragraph1 {
+    color: #4f4e4e;
+    font-family: "IRAN Rounded";
+    font-size: 15px;
+    text-align: right;
+    direction: rtl;
+    max-width: 300px;
+}
+.info-second-part-image {
+    float: right;
+    margin-right: 10%;
+}
+.info-second-part-text {
+    float: left;
+    margin-left: 20%;
+}
+.info-third-part-tab {
+    text-align: center;
+}
+.info-tab-button-parent {
+    display: inline;
+    background-color: #edeaea;
+    font-family: "IRAN Rounded";
+    border-radius: 5px;
+    padding: 8px 0px;
+}
+.info-tab-first-button {
+    background-color: #edeaea;
+    color: #333333;
+    font-family: "IRAN Rounded";
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 80px;
+}
+.info-tab-second-button {
+    background-color: #edeaea;
+    color: #333333;
+    font-family: "IRAN Rounded";
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 80px;
+}
+.info-tab-third-button {
+    background-color: mediumblue;
+    color: white;
+    font-family: "IRAN Rounded";
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 80px;
+}
+.info-third-part-image {
+    float: right;
+    margin-right: 10%;
+}
+.info-third-part-text {
+    float: left;
+    margin-left: 10%;
+}
